@@ -37,12 +37,7 @@ This is the website of our animation studio.
 - [Linters] : This is a tool used in the project to avoide coding error and professionality
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Presentation My Portfolio <a name="Loom-video"></a>
-- [Live Demo Link]()
+- [Live Demo Link](https://chaw-ma-ma-win.github.io/Animation-Studio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
