@@ -4,10 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <title>Animation-Studio</title>
 </head>
 <body>
+    <!-- Desktop Nav -->
+    <header class="mobile-none desktop-nav">
+            <ul class="head-line row flex-row">
+                <li><a href=""><img src="img/facebook-svgrepo-com.svg" alt=""></a></li>
+                <li><a href=""><img src="img/twitter-svgrepo-com.svg" alt=""></a></li>
+                <li><a href=""><small>English</small></a></li>
+                <li><a href=""><small>My Page</small></a></li>
+                <li><a href=""><small>Logout</small></a></li>
+            </ul>
+        <nav class="head-line-one row flex-row">
+            <img src="img/right.png" alt="" srcset="" class="logo">
+            <ul class="row flex-row">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <div class="campaign">
+                Campaign
+            </div>
+        </nav>
+    </header>
+
+    <!-- mobile menu -->  
+    <div class="mobile-menu desktop-none">
+        <div class="top row">
+          <svg id="cross" width="25" height="25" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.11259 6.67846L1.4341 0L0 1.43409L6.67849 8.11255L0.225112 14.5659L1.65921 16L8.11259 9.54665L14.341 15.775L15.7751 14.3409L9.54668 8.11255L16.0002 1.65909L14.5661 0.224998L8.11259 6.67846Z" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="menu">
+          <ul class="column">
+            <li ><a href="about.html" class="link">About</a></li>
+            <li ><a href="#" class="link">Program</a></li>
+            <li ><a href="#" class="link">Join</a></li>
+            <li ><a href="#" class="link">News</a></li>
+          </ul>
+        </div>
+      </div>
+    <section class="section-one flex-column">
+        <div class="nav-icon desktop-none">
+            <svg
+              width="45"
+              height="45"
+              viewBox="0 0 15 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hamburger"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 0H20V2H0V0ZM0 6.00002H20V8.00002H0V6.00002ZM20 12H0V14H20V12Z"
+                fill="#1A2236"
+              />
+            </svg>
+        </div>
+        <div class="intro column flex-column">
+            <h3>"Hello! From Our Animation-Studio"</h3>
+            <h1>Creative Animation Characters</h1>
+            <p class="text">Reason for breaking away and starting own studio is that wanted to escape the corporate trappings experiencing at Madhouse, and instead do projects where more creative freedom.</p>
+            <h4>2023.1.1 (Mon ~ Sat)</h4>
+            <p class="adress">@MAPPA Co., Ltd.</p>
+        </div>
+    </section>
     
+    <section class="section-two column flex-column">
+        <h3>Our Services</h3>
+        <hr>
+        <div class="services column flex-row">
+            <div class="one">
+                <img src="img/1.svg" alt="">
+                <h5>lorem, ip</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="two">
+                <img src="img/2.svg" alt="" >
+                <h5>lorem, ip</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="three">
+                <img src="img/3.svg" alt="" >
+                <h5>lorem, ip</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="four">
+                <img src="img/4.svg" alt="" >
+                <h5>lorem, ip</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="five">
+                <img src="img/5.svg" alt="" >
+                <h5>lorem, ip</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <p class="mobile-none"><a href="#">See our premium services</a></p>
+        <button class="desktop-none join">Join our Animation Studio</button>
+    </section>
+    <section class="section-three column flex-column">
+        <h3>Our Animator</h3>
+        <hr class="hr">
+        <div class="animators column flex-row">
+        </div>
+    </section>
+    <section class="about-partner column mobile-none flex-column">
+        <h3>Partner</h3>
+        <hr>
+        <div class="partners row flex-row">
+          <img src="img/pngwing.com.png" alt="">
+          <img src="img/pngwing.com (1).png" alt="">
+        </div>
+      </section>
+      <footer class="about-footer row mobile-none flex-row">
+        <img src="img/right.png" alt="">
+        <small>MAPPA 2023 Stage Some Right reserved. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque id veniam optio incidunt quam soluta nostrum aliquid libero velit omnis.</small>
+      </footer>
 </body>
 <script src="script.js"></script>
 </html>
