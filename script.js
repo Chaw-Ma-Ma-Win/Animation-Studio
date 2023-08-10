@@ -49,22 +49,13 @@ const animators = [
   },
 ];
 
-/* <div class="animator">
-      <img src="img/artist-1.jpg" alt="">
-      <div class="animator-description column flex-column">
-          <h3>Osamu Tezuka</h3>
-          <p><i>Japanese cartoonist, manga artist, and animator.</i></p>
-          <hr>
-          <p>Prefecture and innovative redefinitions of genres earned him.</p>
-      </div>
-    </div> */
-
 // eslint-disable-next-line no-plusplus
 for (let i = 0; i < animators.length; i++) {
   const div = document.createElement('div');
   div.classList.add('animator');
 
   const img = document.createElement('img');
+  img.alt = 'animator';
   img.src = animators[i].url;
 
   const innerDiv = document.createElement('div');
