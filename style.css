@@ -215,16 +215,13 @@ nav ul {
 }
 
 .section-two p {
+  width: 50%;
   color: #cacacc;
 }
 
 .services {
   padding: 4%;
   height: 80vh;
-}
-
-.services p {
-  width: 50%;
 }
 
 .services div {
@@ -475,6 +472,7 @@ nav ul {
   }
 
   .services p {
+    width: 100%;
     color: #cacacc;
     font-size: small;
   }
@@ -611,6 +609,7 @@ nav ul {
   }
 
   .about-text {
+    display: inherit;
     width: 85%;
     padding: 1.5rem 2rem;
     line-height: 1.8;
@@ -635,6 +634,13 @@ nav ul {
     height: 60vh;
     border-bottom: 1px solid #cacacc;
     border-top: 1px solid #cacacc;
+  }
+
+  .about-section-one h3.mobile-none {
+    display: inherit;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    color: #3e3e3e;
   }
 
   .about-section-one small,
