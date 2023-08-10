@@ -112,7 +112,8 @@ If you like this project support it by giving one star⭐️
 
 # 🙏 Acknowledgments
 
-- I would like to thank Microverse and my code reviewer for making me a better programmer
+- I would like to thank Microverse and my code reviewer for making me a better programmer.
+- - [Cindy Shin in Behance](https://www.behance.net/adagio07) is credited with the original concept and idea for the design showcased.
 
 ## 📝 License <a name="license"></a>
 
